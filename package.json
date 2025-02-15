@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/megazuz/GLO-intensive-Ozon/issues"
   },
-  "homepage": "https://github.com/megazuz/GLO-intensive-Ozon#readme"
+  "homepage": "https://github.com/megazuz/GLO-intensive-Ozon#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
 }
