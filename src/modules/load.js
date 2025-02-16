@@ -5,5 +5,4 @@ import { getData } from './getData.js';
 
 export const load = () => {
     getData().then(data => renderGoods(data));
-    console.log('GOODS LOADED');
 }
