@@ -1,7 +1,3 @@
-import { getData } from './getData.js';
-import { postData } from './postData.js';
-// import { deleteData } from './deleteData.js';
-
 export const cart = () => {
     const cartBtn = document.getElementById('cart');
     const cartModal = document.querySelector('.cart');
@@ -14,8 +10,6 @@ export const cart = () => {
     const closeCart = () => {
         cartModal.style.display = '';
     };
-
-    getData().then(json => console.log(json));
 
     const confirmCart = () => {
         cartModal.style.display = '';
